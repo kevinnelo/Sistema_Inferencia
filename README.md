@@ -17,7 +17,8 @@ Ejecución de ejemplo predeterminado
 ```bash
 python3 main.py --demo
 ```
-
+Verificar funcionamiento de todas las partes del codigo
+```bash
 python3 -m unittest -v
-
+```
 
