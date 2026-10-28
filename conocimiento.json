@@ -1,0 +1,286 @@
+{
+  "hipotesis": [
+    {
+      "id": "H1",
+      "nombre": "Mantener género y energía",
+      "prior": 0.2
+    },
+    {
+      "id": "H2",
+      "nombre": "Aumentar gradualmente la energía",
+      "prior": 0.2
+    },
+    {
+      "id": "H3",
+      "nombre": "Disminuir energía o preparar cierre",
+      "prior": 0.2
+    },
+    {
+      "id": "H4",
+      "nombre": "Cambiar al género solicitado",
+      "prior": 0.2
+    },
+    {
+      "id": "H5",
+      "nombre": "Consultar preferencias o causa de la reacción",
+      "prior": 0.2
+    }
+  ],
+  "pesos": {
+    "tipo_evento": {
+      "cumpleanos": [
+        3,
+        3,
+        1,
+        2,
+        2
+      ],
+      "boda": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "empresarial": [
+        2,
+        1,
+        3,
+        1,
+        3
+      ],
+      "tematica": [
+        4,
+        2,
+        1,
+        1,
+        2
+      ],
+      "discoteca": [
+        3,
+        4,
+        1,
+        3,
+        1
+      ],
+      "reunion_familiar": [
+        2,
+        1,
+        2,
+        2,
+        4
+      ]
+    },
+    "momento": {
+      "llegada": [
+        2,
+        1,
+        5,
+        1,
+        2
+      ],
+      "inicio": [
+        2,
+        5,
+        1,
+        2,
+        2
+      ],
+      "desarrollo": [
+        5,
+        3,
+        1,
+        3,
+        3
+      ],
+      "momento_principal": [
+        4,
+        5,
+        1,
+        2,
+        2
+      ],
+      "cierre": [
+        1,
+        1,
+        12,
+        1,
+        2
+      ]
+    },
+    "grupo_edad": {
+      "ninos": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "adolescentes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "jovenes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "adultos": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "adultos_mayores": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "variadas": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "genero_actual": {
+      "infantil": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pop": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "urbana": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "salsa": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "merengue": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "electronica": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "rock": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "popular": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vallenato": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "reaccion_publico": {
+      "baila_y_canta": [
+        12,
+        3,
+        1,
+        1,
+        1
+      ],
+      "baila_poco": [
+        2,
+        5,
+        2,
+        2,
+        6
+      ],
+      "sentado": [
+        1,
+        1,
+        3,
+        2,
+        9
+      ],
+      "solicita_otro_genero": [
+        1,
+        1,
+        1,
+        15,
+        3
+      ],
+      "se_retira": [
+        1,
+        1,
+        8,
+        1,
+        8
+      ],
+      "positiva": [
+        12,
+        3,
+        1,
+        1,
+        1
+      ],
+      "negativa": [
+        1,
+        1,
+        3,
+        4,
+        12
+      ],
+      "sin_reaccion": [
+        1,
+        2,
+        2,
+        3,
+        10
+      ],
+      "rie_y_canta": [
+        10,
+        3,
+        1,
+        1,
+        2
+      ]
+    }
+  }
+}
