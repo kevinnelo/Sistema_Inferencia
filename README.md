@@ -24,7 +24,7 @@ Verificar funcionamiento de todas las partes del codigo
 ```bash
 python3 -m unittest -v
 ```
-#Funcionamiento
+# Funcionamiento
 El código está organizado en tres capas principales que trabajan juntas para recomendar acciones musicales a un DJ:
 
 * **Presentación (`main.py`):** Realiza el cuestionario, recibe y valida las respuestas del usuario y muestra las recomendaciones ordenadas por probabilidad. También permite ejecutar una demostración con respuestas predeterminadas.
